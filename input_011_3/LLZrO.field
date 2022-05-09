@@ -1,0 +1,18 @@
+LLZrO_test  by Grimes's parameters (2000)
+units eV
+molecular types 1
+LLZrO
+nummols 1
+atoms 3738
+Li             6.940000    0.7 1753
+O              15.9994     -1.4 1402
+Zr             91.224000    2.8 232
+La             138.905000    2.1 351
+finish
+
+vdw    4
+Li     O     buck    876.86         0.2433        0.00000
+O      O     buck    4869.99        0.2402        27.22
+Zr     O     buck    1366.0942      0.31813351    0.00000
+La     O     buck    14509.63       0.2438        30.83
+close

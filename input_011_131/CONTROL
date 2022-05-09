@@ -1,0 +1,20 @@
+title LLZrO with Grimes ff
+
+temperature  1000 K
+io_file_field LLZrO.field
+io_file_config CONFIG
+print_frequency  100 steps
+stats_frequency  100 steps
+vdw_method direct
+cutoff  9 ang
+ensemble nvt
+ensemble_method hoover
+ensemble_thermostat_coupling 0.5 ps
+time_equilibration  5000.0 steps
+time_run 100000 steps
+time_job  2000.0 s
+time_close  10.0 s
+record_equilibration ON
+timestep  0.001 ps
+pressure_hydrostatic  0.001 katm
+stack_size  1 steps
