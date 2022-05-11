@@ -21,8 +21,8 @@ for inp in inputs:
             data.apply(ColorCodingModifier(property='Shear Strain',))
             print(data.attributes['ColorCoding.RangeMin'])
 
-            mins.append(f"{angle},{data.attributes['ColorCoding.RangeMin']}")
-            maxs.append(f"{angle},{data.attributes['ColorCoding.RangeMax']}")
+            mins.append(f"{angle},{data.attributes['ColorCoding.RangeMin']}\n")
+            maxs.append(f"{angle},{data.attributes['ColorCoding.RangeMax']}\n")
         
         except:
             print(inp, "oombi output")
